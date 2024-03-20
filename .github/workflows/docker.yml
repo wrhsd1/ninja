@@ -24,6 +24,6 @@ jobs:
           
       - name: build
         run: |
-          cd docker/builder
+          cd docker
             bash +x build.sh
           cd -
